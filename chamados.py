@@ -179,7 +179,7 @@ elif menu == "Registros":
                 
                 df["Data de Criação"] = pd.to_datetime(df["Data de Criação"], format="%d/%m/%Y %H:%M")
 
-                # Filtra os registros dos últimos 10 dias
+               
                 data_atual = datetime.datetime.now()
                 dez_dias_atras = data_atual - datetime.timedelta(days=10)
                 df_filtrado = df[df["Data de Criação"] >= dez_dias_atras]
