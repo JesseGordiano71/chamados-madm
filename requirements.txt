@@ -35,7 +35,7 @@ more-itertools==10.7.0
 msgpack==1.1.0
 narwhals==1.37.1
 numpy==2.2.5
-packaging==25.0
+packaging==24.2
 pandas==2.2.3
 pbs-installer==2025.4.9
 pillow==11.2.1
